@@ -11,7 +11,7 @@ todoList.addEventListener("click", deleteCheck);
 function filterTodo(e) {
   const todos = todoList.childNodes;
 }
-
+//
 function deleteCheck(e) {
   const item = e.target;
   //Complete item
