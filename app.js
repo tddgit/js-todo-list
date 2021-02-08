@@ -40,7 +40,7 @@ function addTodo(e) {
   const newTodo = document.createElement("li");
   newTodo.innerText = todoInput.value;
   newTodo.classList.add("todo-item");
-  // newTodo.innerText = "hey";
+
   todoDiv.appendChild(newTodo);
   //complete Button
   const completeButton = document.createElement("button");
